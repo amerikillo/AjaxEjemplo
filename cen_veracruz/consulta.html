@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>:: Consulta de Censos Hospitales ::</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <style type="text/css">
+    .style58 {font-size: x-small; font-weight: bold; color: #666666; }
+    </style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="index.jsp">Inicio</a></li>
+          <li><a data-toggle="modal" href="#myModal2">Acerca de...</a></li>
+          <li><a data-toggle="modal" href="#myModal">Contact&aacute;ctenos</a></li>
+        </ul>
+        <h3 class="text-muted">Consulta de Censos Hospitales</h3>
+      </div>
+
+   <div class="jumbotron">
+        <div class="panel panel-default">
+          <!-- Default panel contents -->
+  			<div class="row" >
+        		<div class="col-md-12">
+  <div class="panel panel-primary">
+  <!-- Default panel contents -->
+	<div class="panel-heading">A. DATOS GENERALES</div>
+  <table width="200" border="0" class="table">
+  <tr class="tamano">
+    <td width="6%"> A.1</td>
+    <td width="28%">Nombre de Hospital </td>
+    <td width="66%"><textarea name="txtf_1" cols="40" class="style51" id="txtf_1" onkeypress="return handleEnter(this, event)" readonly><%=a1%></textarea>
+    </td>
+  </tr>
+  <tr>
+    <td> A.2</td>
+    <td>Direcci&oacute;n</td>
+    <td><textarea name="txtf_1" cols="40" class="style51" id="txtf_1" onkeypress="return handleEnter(this, event)" readonly><%=a1%></textarea>
+    </td>
+  </tr>
+</table>
+
+  </div>
+
+<div class="panel panel-default">
+          <!-- Default panel contents -->
+  <div class="row" >
+        		<div class="col-md-12">
+        		<div class="panel panel-primary">
+  <!-- Default panel contents -->
+  				<div class="panel-heading">A. DATOS GENERALES</div>
+  <table width="200" border="0" class="table">
+  <tr>
+    <td width="6%">A.1</td>
+    <td width="29%">Nombre del Hospital </td>
+    <td width="65%">&nbsp;</td>
+  </tr>
+</table>
+
+  </div>
+        
+      </div>
+
+      
+<!-- Modal para Navbars -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Ingresa tus Datos</h4>
+        </div>
+        <div class="modal-body">
+         <form name="" id="">
+         Nombre: <input type="text" class="form-control" placeholder="Ingrese su Nombre">
+         Cuenta de Correo: <input type="text" class="form-control" placeholder="Ingrese su Cuenta de Correo">
+         Deje su Comentario: <textarea name="" cols="10" rows="5" class="form-control"></textarea>
+         
+         
+         </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar Info</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+        
+    <!-- 
+    Mensaje de Acerca de...
+    -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Desarrollo WEB</h4>
+        </div>
+        <div class="modal-body">
+        Ricardo Hern&aacute;ndez Wence<br>
+        <img src="imagenes/des2.jpg" width="60" height="60">Desarrollador de Aplicaciones WEB<br>
+        
+        
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          <!--button type="button" class="btn btn-primary">Guardar Info</button-->
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+    
+    <!-- 
+     fin Mensaje de Acerca de...
+    -->
+
+      <div class="footer">
+        <p>&copy; Company 2013</p>
+      </div>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+  </body>
+</html>
+
